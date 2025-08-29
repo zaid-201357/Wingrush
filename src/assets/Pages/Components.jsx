@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../Components/Header";
-import Mission from "../Components/missions";
 import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
+import Mission from "../Components/Mission";
 
 
 function Components() {

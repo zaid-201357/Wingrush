@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import img12 from "../../../public/PlaneImages/img12.png";
 import { easeInOut, motion } from "framer-motion";
-import PlanesCarousel from '../Components/PlanesCarousel'
-import Enemies from '../Components/Enemies'
+import PlanesCarousel from "../Components/PlanesCarousel";
+import Enemies from "../Components/Enemies";
 import Gallery from "./Gallery";
 import { link } from "framer-motion/client";
-import video1 from '../../../public/missions videos/1.mp4'
-import video2 from '../../../public/missions videos/2.mp4'
-import video3 from '../../../public/missions videos/3.mp4'
-import video4 from '../../../public/missions videos/4.mp4'
-import video5 from '../../../public/missions videos/5.mp4'
-import video6 from '../../../public/missions videos/6.mp4'
-import video7 from '../../../public/missions videos/7.mp4'
+import video1 from "../../../public/missions videos/1.mp4";
+import video2 from "../../../public/missions videos/2.mp4";
+import video3 from "../../../public/missions videos/3.mp4";
+import video4 from "../../../public/missions videos/4.mp4";
+import video5 from "../../../public/missions videos/5.mp4";
+import video6 from "../../../public/missions videos/6.mp4";
+import video7 from "../../../public/missions videos/7.mp4";
 import video8 from "../../../public/missions videos/8.mp4";
-import img1 from '../../../public/Missions-planetumbnails/1.jpg'
-import img2 from '../../../public/Missions-planetumbnails/2.jpg'
-import img3 from '../../../public/Missions-planetumbnails/3.jpg'
-import img4 from '../../../public/Missions-planetumbnails/6.jpg'
-import img5 from '../../../public/Missions-planetumbnails/5.jpg'
-import img6 from '../../../public/Missions-planetumbnails/4.jpg'
+import img1 from "../../../public/Missions-planetumbnails/1.jpg";
+import img2 from "../../../public/Missions-planetumbnails/2.jpg";
+import img3 from "../../../public/Missions-planetumbnails/3.jpg";
+import img4 from "../../../public/Missions-planetumbnails/6.jpg";
+import img5 from "../../../public/Missions-planetumbnails/5.jpg";
+import img6 from "../../../public/Missions-planetumbnails/4.jpg";
 import img7 from "../../../public/Missions-planetumbnails/7.jpg";
 import img8 from "../../../public/Missions-planetumbnails/8.jpg";
 const Mission = () => {
@@ -31,7 +31,7 @@ const Mission = () => {
       title: "Video 1",
       desc: "Fly through narrow valleys, dogdge enemy fire and destroy  towers to weaken enemy control . upgrade your plane to survive growing threats",
       img: img1,
-       link: video1,
+      link: video1,
     },
     {
       id: 2,
@@ -179,4 +179,3 @@ const Mission = () => {
 };
 
 export default Mission;
-
