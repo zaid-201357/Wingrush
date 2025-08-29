@@ -18,12 +18,12 @@ function Header() {
       <div className="max-w-[1600px] mx-auto sticky z-50 top-0  ">
         <div className="flex justify-evenly md:justify-between items-center  px-14 pt-2  text-white backdrop-blur-[4px]    bg-black/30">
           {/* Logo Portion  */}
-          <div className="w-[200px] ">
+          <div className="w-[250px] ">
             <img
               // onClick={showToggle}
               src={logo}
               alt=""
-              className="w-16 h-16 md:w-20 md:h-20  pl-2 "
+              className="w-20 h-16 md:w-20 md:h-20  pl-2 "
             />
           </div>
 
