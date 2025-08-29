@@ -8,7 +8,10 @@ import Mission from "../Components/Mission";
 function Components() {
   return (
     <>
-      <Header/>
+      <div className="sticky z-50 top-0">
+        {" "}
+        <Header />
+      </div>
       <div className="overflow-x-hidden">
         <HeroSection />
         <Mission />
