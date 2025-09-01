@@ -15,15 +15,15 @@ function Header() {
     //  bg-[#110475] color
     <>
       {/* // Header main container */}
-      <div className="max-w-[1600px] mx-auto sticky z-50 top-0  ">
+      <div className="max-w-[1600px] mx-auto  z-50 top-0  ">
         <div className="flex justify-evenly md:justify-between items-center  px-14 pt-2  text-white backdrop-blur-[4px]    bg-black/30">
           {/* Logo Portion  */}
-          <div className="w-[250px] ">
+          <div className="w-[200px] ">
             <img
               // onClick={showToggle}
               src={logo}
               alt=""
-              className="w-20 h-16 md:w-20 md:h-20  pl-2 "
+              className="w-16 h-16 md:w-20 md:h-20  pl-2 "
             />
           </div>
 
@@ -32,7 +32,7 @@ function Header() {
           <ul className=" hidden  w-[700px] md:flex items-center  space-x-3 ml-3  lg:space-x-6 justify-center">
             {navLinksdata.map(({ _id, title, link }) => (
               <li
-                className="  text-xl font-normal  tracking-wide cursor-pointer hover:text-orange-500 hover:font-semibold duration-300 hover:border-b-2 border-white hover:text-xl"
+                className="  lg:text-xl font-normal   cursor-pointer hover:text-orange-500 hover:font-semibold duration-300 hover:border-b-2 border-white hover:text-xl"
                 key={_id}
               >
                 <Link
@@ -40,7 +40,7 @@ function Header() {
                   to={link}
                   spy={true}
                   smooth={true}
-                  offset={-95}
+                  offset={-75}
                   duration={900}
                 >
                   {title}
@@ -52,8 +52,8 @@ function Header() {
           {/* Mobile section  */}
           <ul
             className={`duration-500 md:hidden fixed top-16 w-full  sm:w-[500px] sm:text-center items-center justify-center p-20 h-screen
-    ${toggle ? "left-0" : "left-[-100%]"} 
-    bg-black text-white`}
+             ${toggle ? "left-0" : "left-[-100%]"} 
+            bg-black text-white`}
           >
             {navLinksdata.map(({ _id, title, link }) => (
               <li
@@ -65,7 +65,7 @@ function Header() {
                   to={link}
                   spy={true}
                   smooth={true}
-                  offset={-95}
+                  offset={-85}
                   duration={900}
                   onClick={() => setToggle(false)} // ✅ Hides menu after clicking
                 >
@@ -76,7 +76,7 @@ function Header() {
           </ul>
 
           <div className="flex items-center space-x-3.5">
-            <button className="bg-orange-500 px-3 text-xs md:px-5 hover:font-semibold py-1 text-white md:text-xl rounded-md hover:cursor-pointer shadow-[0_0_10px_rgba(200,200,200)] hover:scale-105 duration-500">
+            <button className="bg-orange-500 px-3 text-xs  lg:px-4 xl:px-5 hover:font-semibold py-1 text-white md:text-xl rounded-md hover:cursor-pointer shadow-[0_0_10px_rgba(200,200,200)] hover:scale-105 duration-500">
               <a
                 href="https://play.google.com/store/search?q=wingrush&c=apps&hl=en"
                 target="_blank"

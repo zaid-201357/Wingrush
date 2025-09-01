@@ -100,7 +100,6 @@ function HeroSection() {
       </div>
 
       {/* Trailer Modal */}
-      {/* Trailer Modal */}
       {showTrailer && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-[50] p-2">
           <div className="relative w-full max-w-[95%] md:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%] bg-black rounded-lg shadow-lg flex flex-col items-center justify-center p-2">

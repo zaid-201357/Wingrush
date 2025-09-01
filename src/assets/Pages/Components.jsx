@@ -4,12 +4,10 @@ import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 import Mission from "../Components/Mission";
 
-
 function Components() {
   return (
     <>
       <div className="sticky z-50 top-0">
-        {" "}
         <Header />
       </div>
       <div className="overflow-x-hidden">
@@ -22,6 +20,3 @@ function Components() {
 }
 
 export default Components;
-
-
-
